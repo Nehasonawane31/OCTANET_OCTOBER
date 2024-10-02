@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('bgprofo.jpeg'); /* Apply background image to entire page */
+  background-size: cover;
+  background-position: center;
+  color: white; /* Set text color to white for readability on dark background */
+}
+
+/* Header Styles */
+header {
+  background-color: rgba(51, 51, 51, 0.8); /* Slightly transparent background */
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3em;
+}
+
+.hero p {
+  font-size: 1.5em;
+}
+
+.hero .btn {
+  padding: 10px 20px;
+  background-color: #ff9800;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Section Styles */
+section {
+  padding: 50px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6); /* Transparent background for readability */
+  margin: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+  margin: 10px 20px;
+  font-size: 1.2em;
+}
+
+/* Project Grid Styles */
+.project-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project {
+  background-color: rgba(255, 255, 255, 0.8); /* Light background for project cards */
+  color: black; /* Set text color to black for contrast */
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.project h3 {
+  margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: rgba(51, 51, 51, 0.8); /* Transparent background */
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
